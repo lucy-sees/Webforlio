@@ -153,15 +153,40 @@ body {
     margin-top: 10px;
   }
 
+  .text-1 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 10px;
+  }
+
+  .text-2 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #7a869a;
+    margin-top: 10px;
+  }
+
+  .text-3 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #7a869a;
+    margin-top: 10px;
+  }
+
   .language-categories {
     display: flex;
     align-items: center;
     gap: 8px;
+    list-style-type: none;
   }
 
   .language-categories li {
     list-style-type: none;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   .language-categories a {
@@ -177,6 +202,7 @@ body {
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+    letter-spacing: 3%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -187,8 +213,7 @@ body {
     border-radius: 8px;
     background: #fff;
     border: 1px solid #6070ff;
-    width: 145px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   /* About Section */
@@ -215,6 +240,12 @@ body {
     line-height: 24px;
     color: #344563;
     margin-top: 10px;
+  }
+
+  .resume-button {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
   }
 
   .skill-list,
@@ -256,5 +287,58 @@ body {
     height: 1px;
     border: 0.5px;
     margin-top: 10px;
+  }
+
+  /* BUTTON STYLES */
+  .submit-btn:enabled {
+    background: #fff;
+    color: #7f8cff;
+  }
+
+  .submit-btn:disabled {
+    background: #c1c7d0;
+    color: #fff;
+  }
+
+  .submit-btn:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+
+  .submit-btn:active {
+    transform: scale(1.1);
+    background: #2230d2;
+    color: #fff;
+    -webkit-transform: scale(1);
+  }
+
+  .btn.btn-default.btn-hover:enabled {
+    background: #fff;
+    color: #7f8cff;
+  }
+
+  .btn.btn-default.btn-hover:disabled {
+    background: #fff;
+    color: #c1c7d0;
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+  }
+
+  .btn.btn-default.btn-hover:hover {
+    background-color: #6070ff;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .btn.btn-default.btn-hover.btn-pressed:active {
+    transform: scale(1.1);
+    background: #2230d2;
+    color: #fff;
+    -webkit-transform: scale(1);
+  }
+
+  .btn.btn-default.btn-hover.btn-pressed:focus {
+    outline: none;
+    box-shadow: none;
   }
 }
