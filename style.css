@@ -335,8 +335,8 @@ body {
     outline: none;
     box-shadow: none;
   }
-  
-   /* Contact Section */
+
+  /* Contact Section */
   .contact-me {
     background: url(Assets/images/contact-form-shapes-mobile.svg) #6070ff;
     background-repeat: no-repeat;
@@ -403,7 +403,8 @@ body {
   form {
     margin-top: 2%;
   }
-  /* Button styles for contact form*/
+
+  /* Button styles for contact form */
   .submit-btn.contact-btn {
     display: flex;
     flex-direction: row;
