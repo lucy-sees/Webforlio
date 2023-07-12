@@ -497,3 +497,28 @@ form {
 }
 
 /* mobile animation transitions */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+h1 {
+  animation: slideInFromLeft 0.5s ease-in-out;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.text-description {
+  animation: slideInFromRight 0.5s ease-in-out;
+}
