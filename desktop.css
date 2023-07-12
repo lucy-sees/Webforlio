@@ -41,27 +41,30 @@
   }
 
   .menu-toggle {
-    width: 35%;
     display: flex;
-    justify-content: space-around;
-    padding: 24px;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 8px;
-    margin-right: 5%;
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    transform: translateX(-50%);
+  }
+
+  .menu-toggle span {
+    margin: 0 10px;
   }
 
   .menu-item {
-    font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    text-align: center;
     color: #344563;
+    font-weight: 500;
+    padding: 5px;
+    transition: background-color 0.3s;
   }
 
   a.menu-item {
     text-decoration: none;
-    color: #000;
   }
 
   /* Main section styles */
@@ -135,7 +138,6 @@
     padding-top: 10%;
     padding-left: 6%;
     padding-right: 6%;
-    padding-bottom: 17%;
     background-color: rgba(229, 229, 229, 0.3);
   }
 
@@ -188,8 +190,6 @@
     margin-block-end: 0;
     padding-inline-start: 0;
     padding-top: 2%;
-
-    /* gap: 2.5%; */
   }
 
   .first-list-item-desktop {
@@ -611,18 +611,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .slider-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: -108px;
   }
 
   /* Contact me ends */
