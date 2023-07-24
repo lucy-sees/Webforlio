@@ -26,7 +26,6 @@ body {
   left: 0%;
   right: 0%;
   width: 100%;
-  height: 72px;
 }
 
 .logo {
@@ -51,6 +50,59 @@ a {
 
 .menu-toggle {
   display: none;
+}
+
+/* pop up menu */
+.pop-up-section {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  background: #6070FF;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(0.5rem);
+  z-index: 1;
+}
+
+.pop-up-section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 20%;
+}
+
+.pop-up-section li {
+  list-style-type: none;
+  display: flex;
+  width: 351px;
+  height: 56px;
+  padding: 5px 16px;
+}
+
+.pop-up-section a {
+  color: var(--theme-1-neutrals-11, #FFF);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.cross-btn {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 20%;
+  padding: 24px;
+  cursor: pointer;
+  border: none;
+  background: none;
 }
 
 /* Main section styles */

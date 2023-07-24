@@ -25,9 +25,14 @@
     left: 0%;
     right: 0%;
     width: 100%;
+    height: 72px;
   }
 
   .menu .union-bar {
+    display: none;
+  }
+
+  .pop-up-section {
     display: none;
   }
 
