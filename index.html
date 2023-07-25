@@ -18,12 +18,13 @@
   <!-----pop-up-menu starts---->
   <section class="pop-up-section">
     <section class="pop-up-menu">
-      <button class="cross-btn"><img src="./Assets/images/cross.png" alt="cross"></button>
       <div class="pop-up">
         <ul class="pop-up-list">
           <li><span class="scroll-to-link"><a href="#portfolio" class="pop-menu-item">Portfolio</a></span></li>
           <li><span class="scroll-to-link"><a href="#about" class="pop-menu-item">About</a></span></li>
           <li><span class="scroll-to-link"><a href="#contact" class="pop-menu-item">Contact</a></span></li>
+          <button class="cross-btn" id="close"><img src="./Assets/images/cross.png" alt="cross"></button>
+          <img src="./Assets/images/images/home-indicator.png" alt="home-indicator" class="home-indicator">
         </ul>
       </div>
     </section>
@@ -33,10 +34,10 @@
   <div class="container">
     <div class="nav">
       <div class="logo">
-        <a href="#">My Logo</a>
+        <a href="#home">My Logo</a>
       </div>
       <div class="menu">
-        <section class="union-bar">
+        <section class="union-bar" id="open">
           <nav>
             <img src="./Assets/images/Union.png" alt="union-bar">
           </nav>
@@ -73,7 +74,7 @@
   </section>
 
   <!-------work section------>
-  <section class="container-work">
+  <section class="container-work" id="portfolio">
     <div class="card">
       <img src="Assets/images/tonic1.svg" alt="" class="image">
       <div class="left-card1-block">
@@ -312,8 +313,8 @@
 
     <!----About Sectiom------->
 
-    <section class="wrapper-about-contact">
-      <section class="container-about" id="about">
+    <section class="wrapper-about-contact" id="about">
+      <section class="container-about">
         <div class="card-about">
           <div>
             <h3 class="about-project-title">About Myself</h3>
@@ -394,7 +395,7 @@
       <!-------Contact Section----->
 
       <section class="contact-me">
-        <div class="container">
+        <div class="container" id="contact">
 
           <!-- contact text -->
 
