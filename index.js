@@ -4,34 +4,33 @@ const unionBar = document.querySelector('.union-bar');
 const crossBtn = document.querySelector('.cross-btn');
 const popUpItems = document.querySelectorAll('.pop-menu-item');
 
-// Add a click event listener to the union-bar
-unionBar.addEventListener('click', togglePopUp);
-
 // Function to toggle the visibility of the pop-up menu
 function togglePopUp() {
   popUpSection.classList.toggle('show');
 }
 
-// Add a click event listener to each pop-up menu item
-popUpItems.forEach(item => {
-  item.addEventListener('click', hidePopUp);
-});
+// Add a click event listener to the union-bar
+unionBar.addEventListener('click', togglePopUp);
 
 // Function to hide the pop-up menu when a menu item is clicked
 function hidePopUp() {
   popUpSection.classList.remove('show');
 }
 
-// Add a click event listener to the cross button
-crossBtn.addEventListener('click', hidePopUpWithCross);
+// Add a click event listener to each pop-up menu item
+popUpItems.forEach((item) => {
+  item.addEventListener('click', hidePopUp);
+});
 
 // Function to hide the pop-up menu when the cross button is clicked
 function hidePopUpWithCross() {
   popUpSection.classList.remove('show');
 }
 
- // Scroll smoothly to the section when a menu item is clicked
- function smoothScrollToSection(e) {
+// Add a click event listener to the cross button
+crossBtn.addEventListener('click', hidePopUpWithCross);
+// Scroll smoothly to the section when a menu item is clicked
+function smoothScrollToSection(e) {
   e.preventDefault();
   const target = document.querySelector(e.target.getAttribute('href'));
   if (target) {
@@ -42,4 +41,4 @@ function hidePopUpWithCross() {
   hidePopUp();
 }
 
-popUpItems.forEach(item => item.addEventListener('click', smoothScrollToSection));
+popUpItems.forEach((item) => item.addEventListener('click', smoothScrollToSection));
