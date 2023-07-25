@@ -31,11 +31,7 @@
   .menu .union-bar {
     display: none;
   }
-
-  .pop-up-section {
-    display: none;
-  }
-
+  
   .logo {
     margin-left: -2.5%;
     width: 30%;
@@ -70,6 +66,26 @@
 
   a.menu-item {
     text-decoration: none;
+  }
+
+  .pop-up-section {
+    display: none;
+    visibility: hidden;
+  }
+
+  .pop-up-list {
+    display: none;
+    visibility: hidden;
+  }
+
+  .pop-up-menu {
+    display: none;
+    visibility: hidden;
+  }
+
+  .pop-up {
+    display: none;
+    visibility: hidden;
   }
 
   /* Main section styles */
