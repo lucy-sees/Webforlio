@@ -772,3 +772,9 @@ form {
   outline: none;
   box-shadow: none;
 }
+
+/* form validation */
+.error {
+  color: red;
+  font-size: 1rem;
+}
