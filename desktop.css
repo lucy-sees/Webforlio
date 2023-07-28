@@ -162,40 +162,49 @@
     background-color: rgba(229, 229, 229, 0.3);
   }
 
-  .container-work {
+  .title {
     display: none;
   }
 
-  .cards-desktop {
+  .image-mobile {
+    display: none;
+  }
+
+  .project-company {
+    display: none;
+  }
+
+  .specialization {
+    display: none;
+  }
+
+  .stack {
+    display: none;
+  }
+
+  .image:hover {
+    width: 65%;
+  }
+
+  .two {
+    order: 2;
+  }
+
+  .container-work-mobile {
+    display: none;
+  }
+
+  .cards-desk {
     display: flex;
-    align-items: center;
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
     background: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 1.6rem;
-    padding: 1.9%;
-    justify-content: space-evenly;
+    border-radius: 16px;
   }
 
-  .project-snippet-desktop img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .project-details-desktop {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1.81%;
-    padding-left: 2%;
-  }
-
-  .project-details-heading-desktop {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .project-details-heading-desktop h2 {
+  .desc-desk h2 {
     font-weight: 700;
     font-size: 2.5rem;
     color: #091e42;
@@ -203,221 +212,48 @@
     margin-block-start: 1.5rem;
   }
 
-  .project-details-heading-desktop ul {
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 1.5%;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
-    padding-top: 2%;
+  .project-description {
+    display: none;
   }
 
-  .first-list-item-desktop {
-    list-style-type: none;
-    color: #344563;
-    font-weight: 700;
-    padding-right: 6.5%;
-    font-size: 1.13rem;
-  }
-
-  .list-items-desktop {
-    font-weight: 400;
-    color: #6b778c;
-    font-size: 1.13rem;
-    padding-right: 7%;
-  }
-
-  .project-details-desktop p {
-    font-weight: 400;
-    color: #344563;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-top: 3.9%;
-  }
-
-  .tools-desktop {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
-    padding-top: 3.9%;
-    padding-bottom: 6.4%;
-  }
-
-  .tools-items-desktop {
-    display: inline-block;
-    background: #ebebff;
-    border-radius: 0.6rem;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-weight: 500;
-    font-size: 0.75rem;
-    color: #6070ff;
-    margin-right: 1.3%;
-  }
-
-  .user-buttons-desktop {
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #396df2;
-    padding: 12px;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 8px;
-    background: #fff;
-    border: 1px solid #6070ff;
-    width: 138px;
-    margin-top: 10px;
-  }
-
-  .user-buttons-desktop:hover {
-    background: #6070ff;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-    color: #fff;
-  }
-
-  .user-buttons-desktop:active {
-    transform: scale(1.1);
-    background: #2230d2;
-    color: #fff;
-    -webkit-transform: scale(1);
-  }
-
-  .user-buttons-desktop:focus {
-    outline: none;
-  }
-
-  .cards-desktop-second {
+  .stack-desk {
     display: flex;
     align-items: center;
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 1.6rem;
-    padding: 1.9%;
-    justify-content: space-evenly;
-  }
-
-  .project-snippet-desktop-second img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .project-details-desktop-second {
-    display: flex;
-    flex-direction: column;
-    max-width: 59%;
-    margin-right: 1.81%;
-    padding-right: 2%;
-  }
-
-  .project-details-heading-desktop-second {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .project-details-heading-desktop-second h2 {
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: #091e42;
-    margin-block-end: 0;
-    margin-block-start: 1.5rem;
-  }
-
-  .project-details-heading-desktop-second ul {
-    display: flex;
-    justify-content: flex-start;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
-    padding-top: 2%;
-  }
-
-  .first-list-item-desktop-second {
+    gap: 8px;
     list-style-type: none;
-    color: #344563;
-    font-weight: 600;
-    padding-right: 6.5%;
-    font-size: 1.13rem;
+    border-radius: 0.8rem;
   }
 
-  .list-items-desktop-second {
-    font-weight: 400;
-    color: #6b778c;
-    font-size: 1.13rem;
-    padding-right: 7%;
-  }
-
-  .project-details-desktop-second p {
-    font-weight: 400;
-    color: #344563;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-top: 3.9%;
-  }
-
-  .tools-desktop-second {
-    margin-block-start: 0;
-    margin-block-end: 0;
+  .stack-desk li {
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     padding-inline-start: 0;
-    padding-top: 3.9%;
-    padding-bottom: 6.4%;
   }
 
-  .tools-items-desktop-second {
-    display: inline-block;
+  .stack-desk a {
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 8px;
     background: #ebebff;
-    border-radius: 0.6rem;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-weight: 500;
-    font-size: 0.75rem;
+    text-decoration: none;
     color: #6070ff;
-    margin-right: 1.3%;
   }
 
-  .user-buttons-desktop-second {
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 24px;
+  .pop-desc {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .pop-img-mobile {
+    display: none;
+  }
+
+  .pop-img-desk {
     display: flex;
     justify-content: center;
-    text-align: center;
-    color: #396df2;
-    padding: 12px;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 8px;
-    background: #fff;
-    border: 1px solid #6070ff;
-    width: 138px;
-    margin-top: 10px;
-  }
-
-  .user-buttons-desktop-second:hover {
-    background: #6070ff;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-    color: #fff;
-  }
-
-  .user-buttons-desktop-second:active {
-    transform: scale(1.1);
-    background: #2230d2;
-    color: #fff;
-    -webkit-transform: scale(1);
-  }
-
-  .user-buttons-desktop-second:focus {
-    outline: none;
+    align-items: center;
+    width: 100%;
+    height: 100%;
   }
 
   /* About myself starts */
