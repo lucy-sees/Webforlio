@@ -178,12 +178,27 @@
           <!-- Contact form -->
 
           <div class="contact-form-wrapper">
-            <form class="contact-form" action="https://formspree.io/f/mgebqvqd" method="post">
-              <label><input type="text" id="fullname" name="name" maxlength="30" placeholder="Lucy" required></label>
-              <label><input type="email" id="email" name="email" placeholder="lucysees254@gmail.com" required></label>
-              <label><textarea id="message" name="message" maxlength="500" placeholder="Write your message here..."
-                  required></textarea></label>
-              <button type="submit" class="submit-btn contact-btn">Get in Touch</button>
+            <form class="contact-form" action="https://formspree.io/f/mgebqvqd" method="post" id="form">
+              <section class="form-name input-control">
+                <div class="error"></div>
+                <label for="name"></label>
+                <input id="fname" type="text" maxlength="30" placeholder="Lucy" name="username" />
+              </section>
+              <section class="email-form input-control">
+                <div class="error"></div>
+                <label for="email"></label>
+                <input id="email" type="email" placeholder="lucysees254@gmail.com" name="email" />
+                <div class="error"></div>
+              </section>
+              <section class="textarea-form">
+                <label for="message"></label>
+                <textarea name="user-message" id="message" placeholder="Write your message here..."
+                  max-length="500"></textarea>
+              </section>
+              <section class="submit">
+                <button type="submit" class="submit-btn contact-btn">Get in touch</button>
+                <div class="error"></div>
+              </section>
             </form>
           </div>
         </div>
