@@ -365,3 +365,37 @@ document.addEventListener('DOMContentLoaded', () => {
     validateInput();
   });
 });
+
+/** Add local storage */
+const nameData = document.querySelector('input[name="username"]');
+const emailData = document.querySelector('input[name="email"]');
+const messageData = document.querySelector('textarea[name="user-message"]');
+
+function storeDataLocally() {
+  const data = {
+    name: nameData.value,
+    email: emailData.value,
+    message: messageData.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(data));
+}
+window.addEventListener('load', () => {
+  // Get the saved form data from Local Storage
+  const savedData = localStorage.getItem('formData');
+  // Check if there is any saved data
+  if (savedData) {
+    // Parse the JSON string back to an object
+    const data = JSON.parse(savedData);
+
+    // Access the form data properties
+    nameData.value = data.name;
+    emailData.value = data.email;
+    messageData.value = data.message;
+
+    // Do whatever you want with the form data...
+  }
+});
+nameData.addEventListener('input', storeDataLocally);
+emailData.addEventListener('input', storeDataLocally);
+messageData.addEventListener('input', storeDataLocally);
