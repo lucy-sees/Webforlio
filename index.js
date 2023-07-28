@@ -316,3 +316,52 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
     overlay.classList.remove('active');
   });
 }));
+
+/** Contact form validation */
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('form');
+  const username = document.getElementById('fname');
+  const email = document.getElementById('email');
+
+  function addError(elm, msg) {
+    const inputControl = elm.parentElement;
+    const errorDiv = inputControl.querySelector('.error');
+    errorDiv.innerText = msg;
+    inputControl.classList.add('error');
+  }
+
+  function removeError(elm) {
+    const inputControl = elm.parentElement;
+    const errorDiv = inputControl.querySelector('.error');
+    errorDiv.innerText = '';
+    inputControl.classList.remove('error');
+  }
+
+  function isLowerCase(str) {
+    return str === str.toLowerCase();
+  }
+
+  function validateInput() {
+    const usernameValue = username.value.trim();
+    const emailValue = email.value.trim();
+
+    removeError(username);
+    removeError(email);
+
+    if (usernameValue === '') {
+      addError(username, 'Username is required');
+    }
+    if (emailValue === '') {
+      addError(email, 'Email is required');
+    } else if (!isLowerCase(emailValue)) {
+      addError(email, 'Email must be in lowercase');
+    } else {
+      form.submit();
+    }
+  }
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    validateInput();
+  });
+});
