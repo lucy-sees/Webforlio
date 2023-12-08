@@ -25,9 +25,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio: setup and mobile first] <a name="about-project"></a>
+# 📖 Webforlio <a name="about-project"></a>
 
-**[Portfolio: setup and mobile first]** A captivating portfolio project powered by HTML and CSS showcasing the mobile-first approach of a portfolio project.
+**Webforlio** A captivating portfolio project powered by HTML and CSS showcasing the mobile-first approach of a portfolio project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,6 +38,7 @@
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
     <li><a href="https://www.css3.com/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/Js/"></a></li>
   </ul>
 </details>
 
@@ -61,7 +62,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 Install Git Bash, Web browser and code editor
 
 ### Setup
@@ -82,8 +83,8 @@ Web Browser
 👤 **Lucy W. Mwangi**
 
 - GitHub: [@lucy-sees](https://github.com/lucy-sees)
-- Twitter: [@\_The_LoneWolf](https://twitter.com/_The_LoneWolf)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucy-w-mwangi-83a31b11b/)
+- Twitter: [@\_The_LoneWolf](https://twitter.com/lucy_w_mwangi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucy-wanjiru-mwangi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +92,7 @@ Web Browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://lucy-sees.github.io/Webforlio/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
