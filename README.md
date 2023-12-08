@@ -4,7 +4,7 @@
   <img src="Lucy.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: setup and mobile first</b></h3>
+  <h3><b>Webforlio</b></h3>
 </div>
 
 # 📗 Table of Contents
