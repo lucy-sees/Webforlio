@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
 const navul = document.querySelector('.navul');
 const main = document.querySelector('.main');
-const works = document.getElementById('portifolio');
+const works = document.getElementById('portfolio');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -36,40 +36,39 @@ const projects = [
 
   {
     id: 'proj2',
-    title: 'Awesome Books',
+    title: 'NinjaReader',
     company: 'PERSONAL',
     specialization: 'Front End Dev',
     year: 2023,
     description:
-            'Awesome-books project is a basic website that allows users to add/remove books from a list.It showcases the use of ES6 JavaScript objects and arrays to dynamically modify the DOM and add basic events.',
+            'NinjaReader is a dynamic online platform dedicated to book enthusiasts. It offers a vast selection of books across various genres, enabling users to browse, review, and purchase their favorite reads with ease.',
 
     technologies: {
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
     },
-    image: './images/awesome.png',
-    live: 'https://lucy-sees.github.io/Awesome-Books/',
-    source: 'https://github.com/lucy-sees/Awesome-Books',
+    image: './Assets/images/ninja.png',
+    live: 'https://ninja-reader.vercel.app/',
+    source: 'https://github.com/lucy-sees/NinjaReader',
   },
 
   {
     id: 'proj3',
-    title: 'MECO CHOCOLATE',
+    title: 'Stocks API',
     company: 'PERSONAL',
     specialization: 'Front End Dev',
     year: 2023,
 
     description:
-            'MECO is a company that specializes in providing AI-driven solutions and services to help businesses streamline their operations and improve their performance. Their focus is on developing cutting-edge AI technologies, such as natural language processing and machine learning, to help companies gain insights and make data-driven decisions. ',
+            'StocksAPI is a metrics app that fetches stocks data via API, built with React JavaScript framework and Redux ',
     technologies: {
-      tech1: 'html',
-      tech2: 'css',
-      tech3: 'javaScript',
+      tech1: 'React',
+      tech2: 'Redux',
     },
-    image: './images/Meco.PNG',
-    live: 'https://lucy-sees.github.io/Meco-Chocolate/',
-    source: 'https://github.com/lucy-sees/Meco-Chocolate',
+    image: './images/stocks.PNG',
+    live: 'https://stocks-api-app.vercel.app/',
+    source: 'https://github.com/lucy-sees/Stocks-API-App',
   },
 
   {
@@ -82,9 +81,7 @@ const projects = [
     description:
             ' Leaderboard project is a versatile and engaging platform that aims to foster healthy competition and collaboration among individuals or teams in various fields or activities. Whether its a coding competition, a fitness challenge, a gaming tournament, or any other type of competitive endeavor, the Leaderboard project provides a centralized space to track and showcase participants progress, achievements, and rankings.',
     technologies: {
-      tech1: 'html',
-      tech2: 'css',
-      tech3: 'javaScript',
+      tech1: 'React',
     },
     image: './images/Leaderboard.PNG',
     live: 'https://lucy-sees.github.io/Leaderboard/',

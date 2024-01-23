@@ -8,7 +8,7 @@
 
   /* navbar starts */
   body {
-    background-color: #ffffff;
+    background: #fde1e1a6;
     font-family: "Poppins", sans-serif;
   }
 
@@ -199,17 +199,26 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
-    background:#fcd3d3;
+    background: #fcd3d3;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
   }
 
-  .desc-desk h2 {
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: #091e42;
-    margin-block-end: 0;
-    margin-block-start: 1.5rem;
+  /* Target odd child elements (1st, 3rd, 5th, etc.) */
+  .container-work-desk:nth-child(odd) .card-image-desk {
+    float: left;
+  }
+
+  /* Target even child elements (2nd, 4th, 6th, etc.) */
+  .container-work-desk:nth-child(even) .card-image-desk {
+    float: right;
+  }
+
+  /* Clear the float to prevent layout issues */
+  .container-work-desk::after {
+    content: '';
+    display: table;
+    clear: both;
   }
 
   .project-description {

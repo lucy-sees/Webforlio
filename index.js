@@ -48,50 +48,50 @@ function smoothScrollToSection(e) {
 
 popUpItems.forEach((item) => item.addEventListener('click', smoothScrollToSection));
 
-const works = document.getElementById('portifolio');
+const works = document.getElementById('portfolio');
 /**
  * Pop up windows for work section cards
  */
 const projects = [
   {
     id: 'proj1',
-    title: 'Tonic',
-    title2: 'Tonic',
-    company: 'CANOPY',
-    company2: 'CANOPY',
-    specialization: 'Back End Dev',
-    specialization2: 'Back End Dev',
+    title: 'NinjaReader',
+    title2: 'NinjaReader',
+    company: 'NinjaReader',
+    company2: 'NINJAREADER',
+    specialization: 'Front End Dev',
+    specialization2: 'Front End Dev',
     year: 2015,
     year2: 2015,
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'NinjaReader is a dynamic online platform dedicated to book enthusiasts. It offers a vast selection of books across various genres, enabling users to browse, review, and purchase their favorite reads with ease.',
     description2:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'NinjaReader is a dynamic online platform dedicated to book enthusiasts. It offers a vast selection of books across various genres, enabling users to browse, review, and purchase their favorite reads with ease.',
     description3:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      'NinjaReader is a dynamic online platform dedicated to book enthusiasts. It offers a vast selection of books across various genres, enabling users to browse, review, and purchase their favorite reads with ease.',
     technologies: {
       tech1: 'html',
       tech2: 'css',
       tech3: 'javaScript',
-      tech4: 'Ruby',
-      tech5: 'Bootstrap',
+      tech4: 'Bootstrap',
+      tech5: 'Vercel',
     },
-    image: './Assets/images/tonic1.svg',
-    image2: '../Assets/images/Snapshoot-Portfolio-1.png',
-    live: '#',
-    source: 'https://github.com/lucy-sees/',
+    image: './Assets/images/Snapshoot-Portfolio-1.png',
+    image2: './Assets/images/Snapshoot-Portfolio-1.png',
+    live: 'https://ninja-reader.vercel.app/',
+    source: 'https://github.com/lucy-sees/NinjaReader',
   },
 
   {
     id: 'proj2',
-    title: 'Multi-Post Stories',
-    title2: 'Multi-Post',
-    company: 'CANOPY',
-    company2: 'FACEBOOK',
+    title: 'Hurudevstech',
+    title2: 'HuruDevsTech',
+    company: 'HURUDEVSTECH',
+    company2: 'HURUDEVSTECH',
     specialization: 'Back End Dev',
     specialization2: 'Full Stack Dev',
-    year: 2015,
-    year2: 2015,
+    year: 2023,
+    year2: 2023,
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2:
@@ -99,28 +99,28 @@ const projects = [
     description3:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
     technologies: {
-      tech1: 'html',
-      tech2: 'css',
-      tech3: 'javaScript',
-      tech4: 'Ruby',
-      tech5: 'Bootstrap',
+      tech1: 'React.js',
+      tech2: 'Node.js',
+      tech3: 'Express.js',
+      tech4: 'css',
+      tech5: 'Vercel',
     },
-    image: './Assets/images/multistories.svg',
-    image2: '../Assets/images/Snapshoot-Portfolio-2.png',
-    live: '#',
+    image: '../Assets/images/Snapshoot-Portfolio-2.png',
+    image2: './Assets/images/Snapshoot-Portfolio-2.png',
+    live: 'https://hurudevs.tech/',
     source: 'https://github.com/lucy-sees/',
   },
 
   {
     id: 'proj3',
-    title: 'Tonic',
-    title2: 'Facebook 360',
-    company: 'CANOPY',
-    company2: 'FACEBOOK',
-    specialization: 'Back End Dev',
-    specialization2: 'Full Stack Dev',
-    year: 2015,
-    year2: 2015,
+    title: 'metus',
+    title2: 'metus',
+    company: 'METUS',
+    company2: 'METUS',
+    specialization: 'Front End Dev',
+    specialization2: 'Front End Dev',
+    year: 2023,
+    year2: 2023,
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2:
@@ -130,13 +130,12 @@ const projects = [
     technologies: {
       tech1: 'html',
       tech2: 'css',
-      tech3: 'javaScript',
-      tech4: 'Ruby',
-      tech5: 'Bootstrap',
+      tech3: 'bootstrap',
+      tech4: 'javaScript',
     },
-    image: './Assets/images/tonic2.svg',
-    image2: '../Assets/images/Snapshoot-Portfolio-3.png',
-    live: '#',
+    image: './Assets/images/Snapshoot-Portfolio-3.png',
+    image2: './Assets/images/Snapshoot-Portfolio-3.png',
+    live: 'https://metus.vercel.app/',
     source: 'https://github.com/lucy-sees/',
   },
 
@@ -163,8 +162,8 @@ const projects = [
       tech4: 'Ruby',
       tech5: 'Bootstrap',
     },
-    image: './Assets/images/multistories2.svg',
-    image2: '../Assets/images/Snapshoot-Portfolio-4.png',
+    image: './Assets/images/Snapshoot-Portfolio-4.png',
+    image2: './Assets/images/Snapshoot-Portfolio-4.png',
     live: '#',
     source: 'https://github.com/lucy-sees/',
   },
@@ -218,8 +217,9 @@ projects.forEach((project) => {
             <li><a>${project.technologies.tech1}</a></li>
             <li><a>${project.technologies.tech2}</a></li>
             <li><a>${project.technologies.tech3}</a></li>
-            <li class="tech_desk"><a>${project.technologies.tech4}</a></li>
-            <li class="tech_desk"><a>${project.technologies.tech5}</a></li>
+            <li><a>${project.technologies.tech4}</a></li>
+            <li><a>${project.technologies.tech5}</a></li>
+            
           </ul>
           <button type="button" id="${project.id}" class="see-btn">See Project</button>
        </div>
