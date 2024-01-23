@@ -209,14 +209,21 @@
     float: left;
   }
 
+  /* Clear float after each odd child */
+  .container-work-desk:nth-child(odd)::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   /* Target even child elements (2nd, 4th, 6th, etc.) */
   .container-work-desk:nth-child(even) .card-image-desk {
     float: right;
   }
 
-  /* Clear the float to prevent layout issues */
-  .container-work-desk::after {
-    content: '';
+  /* Clear float after each even child */
+  .container-work-desk:nth-child(even)::after {
+    content: "";
     display: table;
     clear: both;
   }

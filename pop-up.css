@@ -286,7 +286,7 @@ li:last-child {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fde1e1a6;
+  background: #fff;
   border-radius: 16px;
   padding: 24px;
   overflow: scroll;

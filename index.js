@@ -122,16 +122,17 @@ const projects = [
     year: 2023,
     year2: 2023,
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Metus is a startup website designed with HTML, CSS, and Bootstrap. This repository houses the codebase for the Metus website, showcasing the power of these technologies in creating a responsive and user-friendly interface. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
     description2:
-      'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+      'Metus is a startup website designed with HTML, CSS, and Bootstrap. This repository houses the codebase for the Metus website, showcasing the power of these technologies in creating a responsive and user-friendly interface. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
     description3:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      'Metus is a startup website designed with HTML, CSS, and Bootstrap. This repository houses the codebase for the Metus website, showcasing the power of these technologies in creating a responsive and user-friendly interface. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices. The repository includes all the HTML files, stylesheets, and Bootstrap components used in the project. Contributions to improve the website’s design, performance, and accessibility are highly encouraged.',
     technologies: {
       tech1: 'html',
       tech2: 'css',
       tech3: 'bootstrap',
       tech4: 'javaScript',
+      tech4: 'vercel',
     },
     image: './Assets/images/Snapshoot-Portfolio-3.png',
     image2: './Assets/images/Snapshoot-Portfolio-3.png',
@@ -141,30 +142,30 @@ const projects = [
 
   {
     id: 'proj4',
-    title: 'Multi-Post Stories',
-    title2: 'Uber Navigation',
-    company: 'CANOPY',
-    company2: 'Uber',
-    specialization: 'Back End Dev',
-    specialization2: 'Lead Developer',
-    year: 2015,
-    year2: 2018,
+    title: 'Stocks API app',
+    title2: 'Stocks API app',
+    company: 'STOCKS API APP',
+    company2: 'STOCKS API APP',
+    specialization: 'Full Stack Dev',
+    specialization2: 'Full Stack Dev',
+    year: 2023,
+    year2: 2023,
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'A metrics app that fetches metric data via API, built with React JavaScript framework and Redux',
     description2:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+      'A metrics app that fetches metric data via API, built with React JavaScript framework and Redux',
     description3:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      'A metrics app that fetches metric data via API, from Free stock API where financial statements are in real time & every statement is audited, standardized, and up to date.  It has real time stock price, covers the fundamental data part of the stocks via providing income statement, balance sheet statement and cashflow statement quarterly and annually.',
     technologies: {
-      tech1: 'html',
-      tech2: 'css',
-      tech3: 'javaScript',
-      tech4: 'Ruby',
-      tech5: 'Bootstrap',
+      tech1: 'React.js',
+      tech2: 'Redux',
+      tech3: 'API/testing',
+      tech4: 'css',
+      tech5: 'Tailwind',
     },
     image: './Assets/images/Snapshoot-Portfolio-4.png',
     image2: './Assets/images/Snapshoot-Portfolio-4.png',
-    live: '#',
+    live: 'https://stocks-api-app.vercel.app/',
     source: 'https://github.com/lucy-sees/',
   },
 ];
