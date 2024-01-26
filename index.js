@@ -153,7 +153,7 @@ const projects = [
     description:
       'A metrics app that fetches metric data via API, built with React JavaScript framework and Redux',
     description2:
-      'A metrics app that fetches metric data via API, built with React JavaScript framework and Redux',
+      'A metrics app that fetches metric data via API, from Free stock API where financial statements are in real time & every statement is audited, standardized, and up to date.  It has real time stock price, covers the fundamental data part of the stocks via providing income statement, balance sheet statement and cashflow statement quarterly and annually.',
     description3:
       'A metrics app that fetches metric data via API, from Free stock API where financial statements are in real time & every statement is audited, standardized, and up to date.  It has real time stock price, covers the fundamental data part of the stocks via providing income statement, balance sheet statement and cashflow statement quarterly and annually.',
     technologies: {
@@ -317,6 +317,28 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
     overlay.classList.remove('active');
   });
 }));
+
+/** About dropdowns */
+const languageTitle = document.querySelector('.language-title');
+const languagesList = document.querySelector('.languages-name');
+
+languageTitle.addEventListener('click', function() {
+  languagesList.classList.toggle('visible');
+});
+
+const frameworkTitle = document.querySelector('.framework-title');
+const frameworksList = document.querySelector('.frameworks-name');
+
+frameworkTitle.addEventListener('click', function() {
+  frameworksList.classList.toggle('visible');
+});
+
+const skillTitle = document.querySelector('.skill-title');
+const skillsList = document.querySelector('.skills-name');
+
+skillTitle.addEventListener('click', function() {
+  skillsList.classList.toggle('visible');
+});
 
 /** Contact form validation */
 document.addEventListener('DOMContentLoaded', () => {
