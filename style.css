@@ -251,12 +251,6 @@ li {
   }
 }
 
-.language-title img,
-.framework-title img,
-.skill-title img {
-  padding-right: 20%;
-}
-
 .cards-mobile {
   display: flex;
   flex-direction: column;
@@ -614,6 +608,30 @@ li {
     display: flex;
     flex-direction: row;
   }
+
+  .certain-language-name p,
+  .certain-framework-name p,
+  .certain-skill-name p {
+    margin: 0;
+    margin-left: 5px;
+    display: block;
+    float: left;
+  }
+
+  .language-logo img,
+  .framework-logo img,
+  .skill-logo img {
+    display: block;
+    clear: both;
+  }
+
+  .languages-name li,
+  .frameworks-name li,
+  .skills-name li {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
 }
 
 .languages-name.visible,
@@ -637,9 +655,21 @@ li {
   padding: 3%;
 }
 
-.certain-language-name {
+.language-logo img,
+.framework-logo img,
+.skill-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certain-language-name,
+.certain-framework-name,
+.certain-skill-name {
   padding-left: 2%;
-  padding-top: 3%;
+  padding-top: 6%;
 }
 
 .certain-language-name p,
@@ -648,6 +678,7 @@ li {
   color: #253858;
   font-weight: 500;
   font-size: 0.95rem;
+  display: block;
 }
 
 .fas {
