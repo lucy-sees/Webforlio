@@ -179,6 +179,18 @@ li {
   padding-bottom: 30px;
 }
 
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(52, 69, 99, 0.1);
+}
+
 .container#overlay.active {
   filter: blur(8px);
 }
@@ -205,7 +217,8 @@ li {
 
 @media (max-width: 768px) {
   .cards-desk {
-    display: none; /* Hide desktop elements on mobile screens */
+    display: none;
+    /* Hide desktop elements on mobile screens */
   }
 
   .project-description-desk {
@@ -462,20 +475,25 @@ li {
 }
 
 .see-btn {
+  background: #fff;
+  color: #396df2;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-weight: 500;
-  font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
   justify-content: center;
   display: inline-block;
   text-align: center;
-  color: #396df2;
   padding: 12px;
   flex-direction: row;
   gap: 10px;
-  border-radius: 8px;
-  background: #fff;
-  border: 1px solid #6070ff;
   margin-top: 30px;
 }
 
@@ -569,6 +587,7 @@ li {
   color: #000;
   font-weight: 500;
   font-size: 1.25rem;
+  margin-top: 6%;
 }
 
 .languages-name,
@@ -581,6 +600,7 @@ li {
 }
 
 @media (min-width: 768px) {
+
   .languages-name,
   .frameworks-name,
   .skills-name {
@@ -706,20 +726,25 @@ form {
 
 /* BUTTON STYLES */
 .submit-btn {
+  background: #fff;
+  border: 1px solid #6070ff;
+  color: #396df2;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-weight: 500;
-  font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
   justify-content: center;
   display: inline-block;
   text-align: center;
-  color: #396df2;
   padding: 12px;
   flex-direction: row;
   gap: 10px;
-  border-radius: 8px;
-  background: #fff;
-  border: 1px solid #6070ff;
   margin-top: 30px;
 }
 
@@ -747,17 +772,20 @@ form {
 
 /* Button styles for contact form */
 .submit-btn.contact-btn {
-  display: flex;
   flex-direction: row;
   text-align: center;
-  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
   padding: 12px 16px;
   width: 138px;
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #6070ff;
   color: #6070ff;
-  font-size: 17px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 3%;
   margin-top: 0%;
 }
 
