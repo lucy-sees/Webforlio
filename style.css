@@ -218,7 +218,6 @@ li {
 @media (max-width: 768px) {
   .cards-desk {
     display: none;
-    /* Hide desktop elements on mobile screens */
   }
 
   .project-description-desk {
@@ -594,7 +593,6 @@ li {
 }
 
 @media (min-width: 768px) {
-
   .languages-name,
   .frameworks-name,
   .skills-name {
@@ -690,6 +688,7 @@ li {
 
 /* Contact Section */
 .contact-me {
+  border-top-left-radius: 120px;
   background: url(Assets/images/contact-form-shapes-mobile.svg) #6070ff;
   background-repeat: no-repeat;
   border-top-left-radius: 120px;

@@ -614,14 +614,6 @@ form textarea {
   height: 12rem;
 }
 
-hr {
-  width: 40%;
-  height: 5px;
-  border-radius: 1rem;
-  margin-left: 32%;
-  background-color: #0d151e;
-}
-
 @media only screen and (min-width: 768px) {
   .header {
     margin: 0 7rem;

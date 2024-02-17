@@ -168,6 +168,36 @@ const projects = [
     live: 'https://stocks-api-app.vercel.app/',
     source: 'https://github.com/lucy-sees/',
   },
+
+  {
+    id: 'proj5',
+    title: 'Photographer website',
+    title2: 'Photographer website',
+    company: 'Wanjiru',
+    company2: 'Wanjiru',
+    specialization: 'Front End Dev',
+    specialization2: 'Front End Dev',
+    year: 2024,
+    year2: 2024,
+    description:
+      'A photographer website that showcases the work of a professional photographer. The website is built with HTML, CSS, and JavaScript, and it features a responsive and user-friendly design. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
+    description2:
+      'A photographer website that showcases the work of a professional photographer. The website is built with HTML, CSS, and JavaScript, and it features a responsive and user-friendly design. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
+    description3:
+      'A photographer website that showcases the work of a professional photographer. The website is built with HTML, CSS, and JavaScript, and it features a responsive and user-friendly design. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
+    technologies: {
+      tech1: 'html',
+      tech2: 'css',
+      tech3: 'javaScript',
+      tech4: 'Bootstrap',
+      tech5: 'Vercel',
+    },
+    image: './Assets/images/Snapshoot-Portfolio-5.png',
+    image2: './Assets/images/Snapshoot-Portfolio-5.png',
+    live: 'https://wanjiru.vercel.app/',
+    source: 'https://github.com/lucy-sees/',
+  },
+
 ];
 
 let count = 1;
@@ -239,6 +269,8 @@ image.forEach((im) => {
   count += 1;
 });
 
+// Popup
+
 const seeproject = document.querySelectorAll('.see-btn');
 const overlay = document.getElementById('overlay');
 const popup = document.querySelector('.popup');
@@ -286,7 +318,7 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
             <button type="button" id="live" class="pop-but">See live &nbsp; &nbsp;
               <img src="./Assets/images/see-live.png" alt="live">
             </button>
-            <button type="button" id="source" class="pop-but">See source &nbsp; &nbsp;
+            <button type="button" id="source" class="pop-but">Source &nbsp; &nbsp;
               <img src="./Assets/images/source.png" alt="source">
             </button>
           </div>
