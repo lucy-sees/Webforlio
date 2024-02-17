@@ -198,6 +198,35 @@ const projects = [
     source: 'https://github.com/lucy-sees/',
   },
 
+  {
+    id: 'proj6',
+    title: 'Bank website',
+    title2: 'Bank website',
+    company: 'BlueBank',
+    company2: 'BlueBank',
+    specialization: 'Front End Dev',
+    specialization2: 'Front End Dev',
+    year: 2024,
+    year2: 2024,
+    description:
+      'A bank website that showcases the work and services offered by a professional bank. The website is built with NextJS, and it features a responsive and user-friendly design. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
+    description2:
+      'A bank website that showcases the work and services offered by a professional bank. The website is built with NextJS, and it features a responsive and user-friendly design. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
+    description3:
+      'A bank website that showcases the work and services offered by a professional bank. The website is built with NextJS, and it features a responsive and user-friendly design. The website is built with a mobile-first approach, ensuring optimal viewing and interaction experience across a wide range of devices.',
+    technologies: {
+      tech1: 'ReactJS',
+      tech2: 'NextJS',
+      tech3: 'javaScript',
+      tech4: 'Tailwind',
+      tech5: 'Vercel',
+    },
+    image: './Assets/images/Snapshoot-Portfolio-6.png',
+    image2: './Assets/images/Snapshoot-Portfolio-6.png',
+    live: 'https://blue-bank-zeta.vercel.app/',
+    source: 'https://github.com/lucy-sees/',
+  },
+
 ];
 
 let count = 1;
