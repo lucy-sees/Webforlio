@@ -90,14 +90,14 @@ const projects = [
     company2: 'HURUDEVSTECH',
     specialization: 'Back End Dev',
     specialization2: 'Full Stack Dev',
-    year: 2023,
-    year2: 2023,
+    year: 2024,
+    year2: 2024,
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'A collection of awesome creations. Here you will find the latest trends, tips, and tricks on how to build stunning apps. You will also discover the amazing projects that our team has created. Whether you are a beginner or an expert, Huru Devs Tech will inspire you to learn more and create more. Join us today and become part of the Huru Devs Tech community.',
     description2:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      'A collection of awesome creations. Here you will find the latest trends, tips, and tricks on how to build stunning apps. You will also discover the amazing projects that our team has created. Whether you are a beginner or an expert, Huru Devs Tech will inspire you to learn more and create more. Join us today and become part of the Huru Devs Tech community.',
     description3:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      'A collection of awesome creations. Here you will find the latest trends, tips, and tricks on how to build stunning apps. You will also discover the amazing projects that our team has created. Whether you are a beginner or an expert, Huru Devs Tech will inspire you to learn more and create more. Join us today and become part of the Huru Devs Tech community',
     technologies: {
       tech1: 'React.js',
       tech2: 'Node.js',

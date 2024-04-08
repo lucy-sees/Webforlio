@@ -38,7 +38,8 @@ body {
   line-height: 20px;
   text-align: center;
 }
-/* 
+
+/*
 #logo {
   padding: 4%;
 } */
@@ -486,8 +487,6 @@ li {
   line-height: 24px;
   letter-spacing: 3%;
   justify-content: center;
-  display: inline-block;
-  text-align: center;
   padding: 12px;
   flex-direction: row;
   gap: 10px;
