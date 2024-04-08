@@ -61,8 +61,8 @@ const projects = [
     company2: 'NINJAREADER',
     specialization: 'Front End Dev',
     specialization2: 'Front End Dev',
-    year: 2015,
-    year2: 2015,
+    year: 2023,
+    year2: 2023,
     description:
       'NinjaReader is a dynamic online platform dedicated to book enthusiasts. It offers a vast selection of books across various genres, enabling users to browse, review, and purchase their favorite reads with ease.',
     description2:
