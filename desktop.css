@@ -326,17 +326,6 @@
     margin-top: -20px;
   }
 
-  .languages-frameworks {
-    width: 38%;
-    flex-basis: 50%;
-  }
-
-  .languages-frameworks-list {
-    list-style-type: none;
-    margin: 0;
-    padding-inline-start: 0;
-  }
-
   .language-title {
     display: flex;
   }
