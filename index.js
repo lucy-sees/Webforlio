@@ -1,3 +1,4 @@
+
 // Get the elements for the pop-up menu and the union-bar
 const popUpSection = document.querySelector('.pop-up-section');
 const unionBar = document.querySelector('.union-bar');
@@ -223,7 +224,7 @@ const projects = [
     },
     image: './Assets/images/Snapshoot-Portfolio-6.png',
     image2: './Assets/images/Snapshoot-Portfolio-6.png',
-    live: 'https://blue-bank-zeta.vercel.app/',
+    live: 'https://blue-bank-bb.vercel.app/',
     source: 'https://github.com/lucy-sees/',
   },
 
