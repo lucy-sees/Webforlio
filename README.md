@@ -83,8 +83,8 @@ Web Browser
 👤 **Lucy W. Mwangi**
 
 - GitHub: [@lucy-sees](https://github.com/lucy-sees)
-- Twitter: [@\_The_LoneWolf](https://twitter.com/lucy_w_mwangi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucy-wanjiru-mwangi)
+- Twitter: [@lucy_w_mwangi](https://twitter.com/lucy_w_mwangi)
+- LinkedIn: [Lucy M](https://www.linkedin.com/in/lucy-wanjiru-mwangi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
