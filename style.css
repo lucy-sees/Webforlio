@@ -265,6 +265,16 @@ li {
   margin-top: 10%;
 }
 
+.language-logo img,
+.framework-logo img,
+.skill-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .cards-mobile .card-image {
   width: 100%;
 }
@@ -487,7 +497,6 @@ li {
   line-height: 24px;
   letter-spacing: 3%;
   justify-content: center;
-  padding: 12px;
   flex-direction: row;
   gap: 10px;
   margin-top: 30px;
@@ -634,8 +643,6 @@ li {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
-
-  
 }
 
 .languages-name.visible,
@@ -657,16 +664,6 @@ li {
 .framework-logo,
 .skill-logo {
   padding: 3%;
-}
-
-.language-logo img,
-.framework-logo img,
-.skill-logo img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .certain-language-name,
@@ -697,7 +694,6 @@ li {
   border-top-left-radius: 120px;
   background: url(Assets/images/contact-form-shapes-mobile.svg) #6070ff;
   background-repeat: no-repeat;
-  border-top-left-radius: 120px;
   padding: 114px 24px;
   background-position: 100% -20%;
 }
@@ -776,9 +772,6 @@ form {
   line-height: 24px;
   letter-spacing: 3%;
   justify-content: center;
-  display: inline-block;
-  text-align: center;
-  padding: 12px;
   flex-direction: row;
   gap: 10px;
   margin-top: 30px;

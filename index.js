@@ -1,4 +1,3 @@
-
 // Get the elements for the pop-up menu and the union-bar
 const popUpSection = document.querySelector('.pop-up-section');
 const unionBar = document.querySelector('.union-bar');
@@ -133,7 +132,7 @@ const projects = [
       tech2: 'css',
       tech3: 'bootstrap',
       tech4: 'javaScript',
-      tech4: 'vercel',
+      tech5: 'vercel',
     },
     image: './Assets/images/Snapshoot-Portfolio-3.png',
     image2: './Assets/images/Snapshoot-Portfolio-3.png',
@@ -384,21 +383,21 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
 const languageTitle = document.querySelector('.language-title');
 const languagesList = document.querySelector('.languages-name');
 
-languageTitle.addEventListener('click', function() {
+languageTitle.addEventListener('click', () => {
   languagesList.classList.toggle('visible');
 });
 
 const frameworkTitle = document.querySelector('.framework-title');
 const frameworksList = document.querySelector('.frameworks-name');
 
-frameworkTitle.addEventListener('click', function() {
+frameworkTitle.addEventListener('click', () => {
   frameworksList.classList.toggle('visible');
 });
 
 const skillTitle = document.querySelector('.skill-title');
 const skillsList = document.querySelector('.skills-name');
 
-skillTitle.addEventListener('click', function() {
+skillTitle.addEventListener('click', () => {
   skillsList.classList.toggle('visible');
 });
 
