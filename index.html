@@ -7,36 +7,273 @@
   <meta name="keywords" content="HTML, CSS">
   <meta name="author" content="Lucy W. Mwangi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="desktop.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
-  <title>Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/Assets/images/favicon.ico" width="200" height="200">
+  <title>Webforlio</title>
 </head>
 
 <body>
-  <!----------nav bar-->
-  <header>
-    <nav>
-      <a>My Logo</a>
-      <img src="Assets/images/Union.png" alt="">
-    </nav>
-  </header>
+  <div class="container" id="overlay">
+    <!----------nav bar starts----->
+    <!-----pop-up-menu starts---->
+    <section class="pop-up-section">
+      <section class="pop-up-menu">
+        <div class="pop-up">
+          <ul class="pop-up-list">
+            <li><span class="scroll-to-link"><a href="#portfolio" class="pop-menu-item">Portfolio</a></span></li>
+            <li><span class="scroll-to-link"><a href="#about" class="pop-menu-item">About</a></span></li>
+            <li><span class="scroll-to-link"><a href="#contact" class="pop-menu-item">Contact</a></span></li>
+            <button class="cross-btn" id="close"><img src="./Assets/images/cross.png" alt="cross"></button>
+            <img src="./Assets/images/images/home-indicator.png" alt="home-indicator" class="home-indicator">
+          </ul>
+        </div>
+      </section>
+    </section>
+    <!-----pop-up-menu ends---->
 
-  <!-------main section------>
-  <section class="main">
-    <div class="intro-text">
-      <h1>I’m Lucy. <br> Glad to see <br> you!</h1>
-      <p class="text-description">I’m a software developer! I can help you build a product, feature or website Look
-        through some of my work and experience! If you like what you see and have a project you need coded, don’t
-        hestiate to contact me.</p>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <a href="#home">Lucy
+            <!-- <img src="/Assets/images/w.png" alt="logo" width="200" height="200" id="logo"> -->
+          </a>
+        </div>
+        <div class="menu">
+          <section class="union-bar" id="open">
+            <nav>
+              <img src="./Assets/images/Union.png" alt="union-bar">
+            </nav>
+          </section>
+        </div>
+        <div class="menu-toggle">
+          <span><a href="#portfolio" class="menu-item">Portfolio</a></span>
+          <span><a href="#about" class="menu-item">About</a></span>
+          <span><a href="#contact" class="menu-item">Contact</a></span>
+        </div>
+      </div>
     </div>
-    <div class="social">
-      <h3>LET'S CONNECT</h3>
-      <ul class="media-icons">
-        <li><a><img src="Assets/images/Twitter.png" alt="twitter"></a></li>
-        <li><a><img src="Assets/images/Linkedin icon.png" alt="linkedin"></a></li>
-        <li><a><img src="Assets/images/Mail.png" alt="mail"></a></li>
-        <li><a><img src="Assets/images/Github.png" alt="github"></a></li>
-        <li><a><img src="Assets/images/peace.png" alt="vector"></a></li>
-      </ul>
-    </div>
-  </section>
+
+    <!-------main section------>
+    <section class="headline">
+      <section class="main" id="home">
+        <div class="intro-text">
+          <h1 class="intro-mobile">I’m Lucy. <br> Glad to see you!</h1>
+          <p class="text-description">I’m a software developer! I can help you build a product, feature or website Look
+            through some of my work and experience! If you like what you see and have a project you need coded, don’t
+            hestiate to contact me.</p>
+        </div>
+        <div class="social">
+          <h3>LET'S CONNECT</h3>
+          <ul class="media-icons">
+            <li><a href="https://twitter.com/lucy_w_mwangi" class="social-icon"><img src="Assets/images/Twitter.png" alt="twitter"></a></li>
+            <li><a href="https://www.linkedin.com/in/lucy-wanjiru-mwangi" class="social-icon"><img src="Assets/images/Linkedin icon.png" alt="linkedin"></a></li>
+            <li><a href="mailto:lucywanjirumwangi21@gmail.com" class="social-icon"><img src="Assets/images/Mail.png" alt="mail"></a></li>
+            <li><a href="http://github.com/lucy-sees" class="social-icon"><img src="Assets/images/Github.png" alt="github"></a></li>
+            <li><a href="#" class="social-icon"><img src="Assets/images/peace.png" alt="vector"></a></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!-- Work section starts -->
+    <section id="portfolio" class="works">
+
+    </section>
+    <!-- Work section ends -->
+
+    <!----About Sectiom------->
+    <section class="container-about" id="#about">
+      <div class="card-about">
+        <div>
+          <h3 class="about-project-title">About Myself</h3>
+          <p class="description-about">Hello I’m a software developer! I can help you build a product , feature or
+            website
+            Look through some of my work and experience! If you like what you see and have a project you need coded,
+            don’t
+            hestiate to contact me.</p>
+        </div>
+        <div class="social">
+          <h3>LET'S CONNECT</h3>
+          <ul class="media-icons">
+            <li><a href="https://github.com/lucy-sees/" class="social-icon"><img src="Assets/images/Github.png" alt="github"></a></li>
+            <li><a href="https://www.linkedin.com/in/lucy-wanjiru-mwangi" class="social-icon"><img src="Assets/images/Linkedin icon.png" alt="linkedin"></a></li>
+            <li><a href="#" class="social-icon"><img src="Assets/images/peace.png" alt="peace"></a></li>
+            <li><a href="https://twitter.com/lucy_w_mwangi" class="social-icon"><img src="Assets/images/Twitter.png" alt="twitter"></a></li>
+            <li><a href="mailto:lucywanjirumwangi21@gmail.com" class="social-icon"><img src="Assets/images/Mail.png" alt="mail"></a></li>
+          </ul>
+        </div>
+
+        <a class="submit-btn resume-btn" href="./Assets/my_resume.pdf" download="lucy-mwangi-resume.pdf">Get
+          my resume</a>
+      </div>
+
+      <section class="languages-frameworks-skills">
+        <ul class="languages-frameworks-skills-list">
+          <!----Languages---->
+          <li>
+            <article class="language-title">
+              <i class="fas fa-code"></i>
+              <h2>Languages</h2>
+              <i class="fas fa-angle-down"></i>
+            </article>
+            <ul class="languages-name">
+              <li>
+                <section class="language-logo">
+                  <img src="./Assets/images/js.png" alt="js">
+                </section>
+                <section class="certain-language-name">
+                  <p>JavaScript</p>
+                </section>
+              </li>
+  
+              <li>
+                <section class="language-logo">
+                  <img src="./Assets/images/html.png" alt="html">
+                </section>
+                <section class="certain-language-name">
+                  <p>HTML</p>
+                </section>
+              </li>
+  
+              <li>
+                <section class="language-logo">
+                  <img src="./Assets/images/css.png" alt="css">
+                </section>
+                <section class="certain-language-name">
+                  <p>CSS</p>
+                </section>
+              </li>
+            </ul>
+          </li>
+
+          <!----Frameworks---->
+          <li>
+            <article class="framework-title">
+              <i class="fas fa-cubes"></i>
+              <h2>Frameworks</h2>
+              <i class="fas fa-angle-down"></i>
+            </article>
+            <ul class="frameworks-name">
+              <li>
+                <section class="framework-logo">
+                  <img src="./Assets/images/react.png" alt="react">
+                </section>
+                <section class="certain-framework-name">
+                  <p>React</p>
+                </section>
+              </li>
+  
+              <li>
+                <section class="framework-logo">
+                  <img src="./Assets/images/tailwind.png" alt="tailwind">
+                </section>
+                <section class="certain-framework-name">
+                  <p>Tailwind</p>
+                </section>
+              </li>
+  
+              <li>
+                <section class="framework-logo">
+                  <img src="./Assets/images/bootstrap.png" alt="bootstrap">
+                </section>
+                <section class="certain-framework-name">
+                  <p>Bootstrap</p>
+                </section>
+              </li>
+            </ul>
+          </li>
+
+          <!----skills---->
+          <li>
+            <article class="skill-title">
+              <i class="fas fa-brain"></i>
+              <h2>Skills</h2>
+              <i class="fas fa-angle-down"></i>
+            </article>
+            <ul class="skills-name">
+              <li>
+                <section class="skill-logo">
+                  <img src="./Assets/images/ai.png" alt="ai">
+                </section>
+                <section class="certain-skill-name">
+                  <p>AI/ML</p>
+                </section>
+              </li>
+  
+              <li>
+                <section class="skill-logo">
+                  <img src="./Assets/images/coding.png" alt="coding">
+                </section>
+                <section class="certain-skill-name">
+                  <p>Coding</p>
+                </section>
+              </li>
+  
+              <li>
+                <section class="skill-logo">
+                  <img src="./Assets/images/debugging.png" alt="debugging">
+                </section>
+                <section class="certain-skill-name">
+                  <p>Debugging</p>
+                </section>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="wrapper-about-contact" id="about">
+      
+      <!-------Contact Section----->
+
+      <section class="contact-me">
+        <div class="container" id="contact">
+
+          <!-- contact text -->
+
+          <div class="footer-text">
+            <h4>Contact me</h4>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project
+              that
+              needs coding. I’d love to help with it!</p>
+          </div>
+
+          <!-- Contact form -->
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form" action="https://formspree.io/f/mgebqvqd" method="post" id="form">
+              <section class="form-name input-control">
+                <div class="error"></div>
+                <label for="name"></label>
+                <input id="fname" type="text" maxlength="30" placeholder="Lucy" name="username" />
+              </section>
+              <section class="email-form input-control">
+                <div class="error"></div>
+                <label for="email"></label>
+                <input id="email" type="email" placeholder="lucysees254@gmail.com" name="email" />
+                <div class="error"></div>
+              </section>
+              <section class="textarea-form">
+                <label for="message"></label>
+                <textarea name="user-message" id="message" placeholder="Write your message here..."
+                  max-length="500"></textarea>
+              </section>
+              <section class="submit">
+                <button type="submit" class="submit-btn contact-btn">Get in touch</button>
+                <div class="error"></div>
+              </section>
+            </form>
+          </div>
+        </div>
+        <div class="slider-container"><img src="Assets/images/Shape.svg" alt="scrollbar" class="slider-image"></div>
+      </section>
+  </div>
+  <div class="popup"></div>
+  <div class="over"></div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
